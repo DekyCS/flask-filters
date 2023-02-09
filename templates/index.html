@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <h1>Insert Photo</h1>
+
+
+    <a target="_blank" href="https://raw.githubusercontent.com/akiomik/pilgram/main/screenshots/screenshot.png">Help</a>
+
+    <form action="/" method="post" enctype=multipart/form-data>
+        <div>
+            <input type="file" id="picture" name="picture" accept="image/jpeg, image/png">
+            <label class="label" for="picture">
+                <i class="material-icons">add_photo_alternate</i> &nbsp;
+                Choose a Photo
+                </label>
+        <input type="submit" class="index">
+        </div>
+
+        <select name="filters">
+            <option disable selected>Choose a Filter</option>
+            {% for row in filters%}
+
+            <option>{{ row }}</option>
+
+            {% endfor %}
+
+        </select>
+    </form>
+
+{% endblock %}

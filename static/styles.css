@@ -1,0 +1,118 @@
+body{
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+    overflow: hidden;
+
+}
+
+input[type="file"]{
+    display: none;
+}
+
+.label, select, a{
+    color: white;
+    height: 60px;
+    width: 250px;
+    background-color: #f5af09;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+a{
+    font-size: 10px;
+    top: 95%;
+    width: 85px;
+    height: 20px;
+    text-decoration: none;
+    right: 95%;
+    font-weight: bold;
+}
+
+select{
+    font-size: 15px;
+    top: 12%;
+    width: 200px;
+    height: 40px;
+}
+
+img{
+    scale: 150%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    max-width: 800px;
+    max-height: 500px;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    margin: auto;
+    bottom: 15%;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+input[type=submit]{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: #f5af09;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #f5af09;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    bottom: 1;
+    left: 0;
+    right: 1;
+}
+
+.index{
+    position: absolute;
+    margin: auto;
+    bottom: 38%;
+    right: 0%;
+}
+
+.button{
+    position: absolute;
+    margin: auto;
+    bottom: 1%;
+    right: 95%;
+}
+
+input[type=submit]:hover, input[type=submit]:focus, input[type=submit]:active, a:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
